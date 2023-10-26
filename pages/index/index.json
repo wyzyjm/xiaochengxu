@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "mySwiper":"/comopnents/mySwiepr/mySwiper"
+  },
+  "backgroundColor": "#ccc",
+  "navigationBarBackgroundColor": "#00b2ac",
+  "navigationBarTitleText": "工具集",
+  "navigationBarTextStyle":"white"
+}

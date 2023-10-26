@@ -1,0 +1,27 @@
+<!--comopnents/mySwiper.wxml-->
+<!--
+  ndicator-dots
+  indicator-color="#fff"
+  indicator-active-color="red"
+  autoplay
+  interval="2000"
+  circular 
+-->
+<swiper class="swiper-container"
+  indicator-dots
+  indicator-color="#fff"
+  indicator-active-color="red"
+  autoplay
+  interval="2000"
+  circular
+>
+  <swiper-item>
+    <view class="item">A</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="item">B</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="item">C</view>
+  </swiper-item>
+</swiper>

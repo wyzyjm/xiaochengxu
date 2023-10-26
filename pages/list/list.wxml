@@ -1,0 +1,13 @@
+<!--pages/list/list.wxml-->
+<view class="container">
+  <view >A</view>
+  <view >B</view>
+  <view >C</view>
+</view>
+
+<scroll-view scroll-y="{{true}}" class="container">
+  <view >A</view>
+  <view >B</view>
+  <view >C</view>
+</scroll-view>
+

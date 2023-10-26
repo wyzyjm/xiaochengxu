@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/list/list",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "color": "#C9C9C9",
+    "selectedColor":  "#C7A26A",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/images/tabbar/home.png",
+        "selectedIconPath":"/assets/images/tabbar/home_selected.png",
+        "renderer": "webview"
+      }, 
+      {
+        "pagePath": "pages/list/list",
+        "text": "列表",
+        "iconPath": "/assets/images/tabbar/custom.png",
+        "selectedIconPath": "/assets/images/tabbar/custom_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "/assets/images/tabbar/shop.png",
+        "selectedIconPath": "/assets/images/tabbar/shop_selected.png",
+        "renderer": "webview"
+      }
+    ]
+  },
+  "window":{
+    "navigationBarTitleText": "微信",
+    "navigationBarBackgroundColor": "#00b2ac",
+    "navigationBarTextStyle":"white",
+
+    "backgroundTextStyle":"light",
+    "backgroundColor": "#ccc",
+    "onReachBottomDistance": 100
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

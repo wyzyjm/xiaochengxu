@@ -1,0 +1,17 @@
+/* comopnents/mySwiper.wxss */
+.swiper-container {
+  height: 150px;
+}
+
+.item {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+swiper-item:nth-child(2n) {
+  background-color: lightgreen;
+}
+swiper-item:nth-child(2n+1) {
+  background-color: lightpink;
+}
