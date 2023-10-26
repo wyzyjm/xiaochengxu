@@ -14,6 +14,7 @@ const formatNumber = n => {
   return n[1] ? n : `0${n}`
 }
 
+// 网络请求
 const requset = () =>{
   wx.request({
     url: 'example.php', //仅为示例，并非真实的接口地址
